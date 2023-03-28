@@ -1,24 +1,24 @@
 {
-    "name": "fetchql",
-    "version": "1.0.0",
-    "description": "a utility to make graphql calls using fetch api",
-    "main": "dist/index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/KiranMantha/fetchql.git"
-    },
-    "keywords": [
-      "fetch",
-      "graphql"
-    ],
-    "author": "KiranMantha",
-    "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/KiranMantha/fetchql/issues"
-    },
-    "homepage": "https://github.com/KiranMantha/fetchql#readme"
-  }
-  
+  "name": "fetchql",
+  "version": "1.0.0",
+  "description": "a utility to make graphql calls using fetch api",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KiranMantha/fetchql.git"
+  },
+  "keywords": [
+    "fetch",
+    "graphql"
+  ],
+  "author": "KiranMantha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KiranMantha/fetchql/issues"
+  },
+  "homepage": "https://github.com/KiranMantha/fetchql#readme"
+}
